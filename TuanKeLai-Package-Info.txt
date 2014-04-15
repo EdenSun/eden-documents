@@ -1,0 +1,9 @@
+长沙团客来打包资料
+===============================
+主页地址：
+http://www.tkl.cc/app/
+
+地图页面地址，需要传参数-定位经纬度：
+	http://tkl.cc/app/map.php
+	参数：?action=coordinate&lon=33.222&lat=111这样可以 ?action=coordinate&lonlat=33.222,111也可以
+	
