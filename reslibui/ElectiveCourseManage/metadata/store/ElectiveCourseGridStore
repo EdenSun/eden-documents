@@ -1,0 +1,119 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "ElectiveCourseGridStore"
+    },
+    "designerId": "a959f43d-f894-4897-b5d0-8d298c883629",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "cd59dad9-69a6-4a6f-be93-b0123284afb9",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "1a4e87b6-7a63-4d1f-9128-f3afa6008c07"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "#"
+            },
+            "designerId": "665b197f-8587-4b82-ba17-778be6ca36e4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "选课名称"
+            },
+            "designerId": "d9a9bd37-10d6-46b2-b099-0f8c000cb649"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "公告"
+            },
+            "designerId": "c2ef48da-63ab-493e-8566-a9d42753c0da"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "授课教师"
+            },
+            "designerId": "af5993f4-b6c1-4a89-8469-7f291c2ac44c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "学生"
+            },
+            "designerId": "175f69a0-0b89-43c3-8d10-9e974d946797"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "创建者"
+            },
+            "designerId": "72b955f9-3528-435f-8488-670f9086c010"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "创建时间"
+            },
+            "designerId": "26d8f818-3556-4b33-9220-000fefffbce0"
+        }
+    ]
+}

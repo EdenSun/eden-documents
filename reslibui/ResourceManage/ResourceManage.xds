@@ -1,0 +1,50 @@
+{
+    "name": "ResourceManage",
+    "settings": {},
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "c660b0b6-83dc-4d51-b1df-8454e41631e5": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "b96954c6-8a00-4e69-a7af-db8950b6eb16": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "2471da92-0528-4c67-b13f-7bf3af984d17": {
+            "paths": [
+                "metadata/store/ResGridStore",
+                "app/store/override/ResGridStore.js",
+                "app/store/ResGridStore.js"
+            ],
+            "className": "ResGridStore"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "c660b0b6-83dc-4d51-b1df-8454e41631e5"
+        ],
+        "store": [
+            "2471da92-0528-4c67-b13f-7bf3af984d17"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "b96954c6-8a00-4e69-a7af-db8950b6eb16"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true,
+        "resource": true,
+        "6cd5040f-de92-4dd6-bf8c-4959fcc285ed": {
+            "id": "6cd5040f-de92-4dd6-bf8c-4959fcc285ed",
+            "cn": [
+                {
+                    "id": "d2840d54-ab11-40c5-9e3f-fdd9a72e555e",
+                    "cn": [
+                        {
+                            "id": "4ceb8294-2ba2-44f8-8f94-0595dcb80876"
+                        },
+                        {
+                            "id": "f9ef80dc-0093-4df0-91a8-2af0e6f12088",
+                            "cn": [
+                                {
+                                    "id": "0bff5750-2627-4047-aee6-8c674a191edd"
+                                },
+                                {
+                                    "id": "7c936246-bdde-45ec-9479-258f9ff703de"
+                                },
+                                {
+                                    "id": "60a588c1-02f6-4951-a916-30724e0ad2d4"
+                                },
+                                {
+                                    "id": "2f7210a1-1f5d-4788-8852-f79e1fd53782"
+                                },
+                                {
+                                    "id": "562d8427-03f8-4b01-af1a-eed3809f5c7e"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "b0ba854d-2bf7-4fa7-ae71-99a3ff3bf3d1": {
+            "id": "b0ba854d-2bf7-4fa7-ae71-99a3ff3bf3d1"
+        }
+    },
+    "tabState": {
+        "openTabs": [
+            "6cd5040f-de92-4dd6-bf8c-4959fcc285ed"
+        ]
+    },
+    "canvasState": {
+        "topInstance": "6cd5040f-de92-4dd6-bf8c-4959fcc285ed"
+    },
+    "inspectorState": {
+        "topInstance": "6cd5040f-de92-4dd6-bf8c-4959fcc285ed",
+        "selectedInstance": "d2840d54-ab11-40c5-9e3f-fdd9a72e555e"
+    },
+    "codeState": {
+        "topInstance": null
+    },
+    "editMode": "design"
+}

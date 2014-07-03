@@ -1,0 +1,155 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "MyJsonStore"
+    },
+    "designerId": "c143f1d4-9261-4ca6-8b2a-15675904aeb8",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "a465308e-d5fe-40db-89c1-80354e84945f",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "1922877d-fb42-4ebf-bfec-7b8d172e27ce"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "#"
+            },
+            "designerId": "8a214e76-5f33-47f6-a93c-65fae4c207ec"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "帐号"
+            },
+            "designerId": "346b1090-59fe-40ed-8023-2176abdd185e"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "真名"
+            },
+            "designerId": "2095a2c8-59be-433c-a7e1-f514af3669f7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "性别"
+            },
+            "designerId": "06136514-6656-481d-8b4e-8db702512612"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "密码"
+            },
+            "designerId": "d33d813f-387a-414b-ab42-0fcf6187ec82"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "邮箱"
+            },
+            "designerId": "6dad89c9-9872-4dba-8922-5d5b62059e74"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "角色"
+            },
+            "designerId": "4d071b9f-1bf4-4449-9cbd-08ff8b4a6d8c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "学号"
+            },
+            "designerId": "d09e0374-6755-4db7-93b1-ac1e033dc2e1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "入学年份"
+            },
+            "designerId": "c7a570c0-11f6-412d-8176-3b1926f33967"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "电话"
+            },
+            "designerId": "f0d2ea4d-79a6-44d8-a363-e5f1b82478f3"
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "buttons": null,
+        "height": 317,
+        "width": 400,
+        "designer|userClassName": "MyWindow",
+        "designer|initialView": true,
+        "layout": "fit",
+        "title": "添加用户"
+    },
+    "designerId": "74ec105e-ab9a-40f5-b548-973b146e699b",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "buttons",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "title": null
+            },
+            "designerId": "61aa7754-96ab-47ee-b92e-64549381f8f3",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "fieldLabel": "帐号"
+                    },
+                    "designerId": "744ff9d6-1045-46bf-9255-e832a833d7da"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "fieldLabel": "真名"
+                    },
+                    "designerId": "13b80a0a-8c92-4195-84db-90226536a209"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "fieldLabel": "密码"
+                    },
+                    "designerId": "2aec1b38-eaa6-4be6-ad28-cd616716d7d9"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "fieldLabel": "邮箱"
+                    },
+                    "designerId": "c105ec6b-9ba5-450b-98db-49da66ef64f4"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|anchor": "100%",
+                        "fieldLabel": "电话"
+                    },
+                    "designerId": "f02bd32b-fef4-418d-94f0-3011153b0648"
+                },
+                {
+                    "type": "Ext.form.RadioGroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "性别"
+                    },
+                    "designerId": "99bb88a4-f30d-4614-b8ea-7057065672f3",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": null,
+                                "boxLabel": "男"
+                            },
+                            "designerId": "2a1f6674-ccbd-4f98-b6a3-7108effdac2c"
+                        },
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": null,
+                                "boxLabel": "女"
+                            },
+                            "designerId": "47b5aae8-7ff2-42c0-8447-48c881f50b7f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "角色"
+                    },
+                    "designerId": "7594f890-80d1-4196-b73e-304a30396f02",
+                    "cn": [
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "角色"
+                            },
+                            "designerId": "1b687a71-a8b9-4d1b-b2b8-de865e5d8246",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": null,
+                                        "boxLabel": "学生"
+                                    },
+                                    "designerId": "ce21e82e-3781-4772-b35f-aed6e5ea62b0"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": null,
+                                        "boxLabel": "教师"
+                                    },
+                                    "designerId": "9b53ddb5-81a9-4de7-8e30-59a2e09deddc"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": null,
+                                        "boxLabel": "管理员"
+                                    },
+                                    "designerId": "18748437-6642-4560-8c80-e6e4ce70b422"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|anchor": "100%",
+                                "fieldLabel": "学号"
+                            },
+                            "designerId": "78aaa3c1-1dd4-4fcc-bad1-f0db38cb544f"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|anchor": "100%",
+                                "fieldLabel": "入学年份"
+                            },
+                            "designerId": "a0879a90-66ff-41f4-8f7b-72d9b7df10c1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

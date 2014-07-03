@@ -1,0 +1,416 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "vbox"
+    },
+    "designerId": "ac177231-9d25-48ea-aeca-77fe327b8e56",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "2c90c800-790f-416f-9c54-b5c2351e4f47",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "新增选课"
+                    },
+                    "designerId": "2a9bfd8e-38bc-4e86-9949-25a14da69ca4"
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0,
+                "container|columns": 4,
+                "height": 71,
+                "layout": "table",
+                "bodyPadding": 10,
+                "title": null
+            },
+            "designerId": "06d0eccc-202f-4d50-abd2-673b6dfb83f4",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 5px 0 0",
+                        "fieldLabel": "选课名称",
+                        "labelWidth": 80
+                    },
+                    "designerId": "e4d0a2c2-71ac-4e3b-8edc-39a35fb48d07"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 5px",
+                        "fieldLabel": "授课教师",
+                        "labelWidth": 80
+                    },
+                    "designerId": "85e48d53-3485-4abd-b73a-31c5a3381559"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 5px",
+                        "fieldLabel": "学生",
+                        "labelWidth": 35
+                    },
+                    "designerId": "4318bc69-978a-49ff-926b-b02607d597bc"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 0 0 5px",
+                        "fieldLabel": "创建者",
+                        "labelWidth": 50
+                    },
+                    "designerId": "2f3a93d6-2f6d-40d4-b299-8e127d646b55"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 5px 0 0",
+                        "fieldLabel": "创建时间(起)",
+                        "labelWidth": 80
+                    },
+                    "designerId": "ba4af020-9481-4597-9ab2-539c3bb42f8b"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "0 5px",
+                        "fieldLabel": "创建时间(止)",
+                        "labelWidth": 80
+                    },
+                    "designerId": "f3a99ed8-4cc4-4ebe-8412-cb109b6fb04c"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|colspan": 2,
+                        "container|align": "stretch",
+                        "container|pack": "end",
+                        "container|padding": "0 0 0 5px",
+                        "border": false,
+                        "layout": "hbox",
+                        "title": null
+                    },
+                    "designerId": "ac648a18-882c-4bbe-8f8e-5209d065a36d",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|margins": "0 5px 0 0",
+                                "width": 73,
+                                "text": "重置"
+                            },
+                            "designerId": "02647473-e07e-4286-9905-1a8450a67d00"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|margins": "0 0 0 5px",
+                                "width": 71,
+                                "text": "搜索"
+                            },
+                            "designerId": "dfb8add7-c69a-432c-9147-38e3aab9178d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "title": "选课列表",
+                "store": "ElectiveCourseGridStore"
+            },
+            "designerId": "0bf45afa-060e-43d3-8bac-8f5d9606833c",
+            "cn": [
+                {
+                    "type": "Ext.grid.View",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "29bc66af-d8db-4a62-9cc7-3605343b731d"
+                },
+                {
+                    "type": "Ext.toolbar.Paging",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "width": 360,
+                        "displayInfo": true
+                    },
+                    "designerId": "73ec5aec-fa27-4689-9a43-90eebdf798b5"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top"
+                    },
+                    "designerId": "498e503d-02cb-4929-b132-8a1115a8c5bc",
+                    "cn": [
+                        {
+                            "type": "Ext.container.ButtonGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "title": "通用",
+                                "columns": 2
+                            },
+                            "designerId": "5248f5ab-9777-4e8c-899c-49f693fac728",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "编辑"
+                                    },
+                                    "designerId": "3ed28db6-36ab-4d47-a210-ff338c384192"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "删除"
+                                    },
+                                    "designerId": "b426110b-ca99-4a0a-bd78-07d7691dc954"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.ButtonGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "title": "高级",
+                                "columns": 2
+                            },
+                            "designerId": "d6feba92-b5c2-4cbc-bf62-165285446a20",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "选课作业管理"
+                                    },
+                                    "designerId": "f546e091-aa3e-4cff-bb16-5460effacbd1"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "选课问答管理"
+                                    },
+                                    "designerId": "a9310854-c744-4f55-95c7-20b6afe262f6"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "#",
+                        "text": "#"
+                    },
+                    "designerId": "aaf801f0-5e54-4eed-95c6-6f46c9f236d2"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "选课名称",
+                        "text": "选课名称"
+                    },
+                    "designerId": "be76dde5-c5fd-4062-8db3-6a24c2b6e632"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "公告",
+                        "text": "公告"
+                    },
+                    "designerId": "684454df-5643-45e5-b79e-0fb7fc12a79a"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "授课教师",
+                        "text": "授课教师"
+                    },
+                    "designerId": "a7927008-b8d4-47e6-ab12-9cf4c56ca2da"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "学生",
+                        "text": "学生"
+                    },
+                    "designerId": "95dc3b6f-62cd-4a09-a2d9-98557231b091"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "创建者",
+                        "text": "创建者"
+                    },
+                    "designerId": "bb736588-75c7-4ae4-bccb-a076541735af"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "创建时间",
+                        "text": "创建时间"
+                    },
+                    "designerId": "47c82716-3f3d-4cb4-8c85-0aa2e8ebf5a7"
+                }
+            ]
+        }
+    ]
+}
