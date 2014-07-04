@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "storeId": "MyJsonStore",
+        "storeId": "ResGridStore",
         "designer|userClassName": "ResGridStore"
     },
-    "designerId": "2471da92-0528-4c67-b13f-7bf3af984d17",
+    "designerId": "957159e9-591a-43e9-903c-d6fb530bb3e2",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -18,7 +18,7 @@
                 "type": "object"
             },
             "codeClass": null,
-            "designerId": "a8214ee2-96d2-4c21-9660-25aa6819c5a0",
+            "designerId": "3bd4b8ae-b72b-49e4-8859-62678dbeee8f",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -27,7 +27,7 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "designerId": "512186c1-1e67-4ea2-a9e6-a446a5d294aa"
+                    "designerId": "71553f13-72f2-46e8-a70a-bab8b918e93f"
                 }
             ]
         },
@@ -41,7 +41,7 @@
             "userConfig": {
                 "name": "#"
             },
-            "designerId": "8bac7b61-6d3f-4a19-a0c2-70a0135cbba8"
+            "designerId": "b54de614-7d23-4c2c-8371-d469858bc655"
         },
         {
             "type": "Ext.data.Field",
@@ -53,7 +53,7 @@
             "userConfig": {
                 "name": "名称"
             },
-            "designerId": "94397465-ebcf-4b74-9467-b25a1f5e9866"
+            "designerId": "f1119343-e6bd-4d74-910d-efc17534e2e2"
         },
         {
             "type": "Ext.data.Field",
@@ -65,7 +65,7 @@
             "userConfig": {
                 "name": "格式"
             },
-            "designerId": "f9cfbe6a-8df1-40e2-bf7d-14fd078dab41"
+            "designerId": "2cebc5f3-5a8f-45d7-b20e-106f430488b9"
         },
         {
             "type": "Ext.data.Field",
@@ -77,7 +77,7 @@
             "userConfig": {
                 "name": "大小"
             },
-            "designerId": "439b1e83-df78-46d5-b235-65a990afac11"
+            "designerId": "e9d73614-5712-41a0-b183-1e7df66ad6ff"
         },
         {
             "type": "Ext.data.Field",
@@ -89,7 +89,7 @@
             "userConfig": {
                 "name": "关键字"
             },
-            "designerId": "69d027c4-3419-43db-9f48-a60efd7df89d"
+            "designerId": "182f98eb-d3d1-4916-812d-7d3e482b661c"
         },
         {
             "type": "Ext.data.Field",
@@ -101,7 +101,7 @@
             "userConfig": {
                 "name": "发布者"
             },
-            "designerId": "38598eaa-fe3e-43e1-a32e-88d917e3181a"
+            "designerId": "03df4323-e96b-479f-a660-ae40ecb4c4d6"
         },
         {
             "type": "Ext.data.Field",
@@ -113,7 +113,7 @@
             "userConfig": {
                 "name": "审核状态"
             },
-            "designerId": "76e6e137-2c1f-4b18-a594-625d7352ed31"
+            "designerId": "3a29d274-d8cd-4dd4-82bd-4eba9606290c"
         },
         {
             "type": "Ext.data.Field",
@@ -125,7 +125,7 @@
             "userConfig": {
                 "name": "上传时间"
             },
-            "designerId": "51085803-d510-4fed-8c17-d7c07dcbdb30"
+            "designerId": "0dc12182-1216-4fab-a0f7-37931e2064cf"
         }
     ]
 }

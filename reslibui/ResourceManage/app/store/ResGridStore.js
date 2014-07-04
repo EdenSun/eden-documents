@@ -20,7 +20,7 @@ Ext.define('MyApp.store.ResGridStore', {
         var me = this;
         cfg = cfg || {};
         me.callParent([Ext.apply({
-            storeId: 'MyJsonStore',
+            storeId: 'ResGridStore',
             proxy: {
                 type: 'ajax',
                 reader: {

@@ -22,9 +22,5 @@ Ext.application({
     stores: [
         'ResGridStore'
     ],
-    views: [
-        'MyViewport'
-    ],
-    autoCreateViewport: true,
     name: 'MyApp'
 });

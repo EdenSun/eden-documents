@@ -9,10 +9,6 @@
         "stores": [
             "ResGridStore"
         ],
-        "views": [
-            "MyViewport"
-        ],
-        "autoCreateViewport": true,
         "name": "MyApp"
     },
     "designerId": "application"
