@@ -1,0 +1,2 @@
+ 编辑tomcat的catalina.sh文件，在第一行的后面增加一句：
+JAVA_OPTS='-server -Xms256m -Xmx512m -XX:PermSize=128M -XX:MaxPermSize=256M'
